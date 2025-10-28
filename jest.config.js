@@ -23,4 +23,3 @@ export default {
   moduleDirectories: ['js', 'node_modules','<rootDir>'],
   coverageDirectory: '<rootDir>/coverage/',
 }
-

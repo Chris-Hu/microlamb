@@ -279,7 +279,6 @@ export const FileType = {
     }
 };
 
-
 export const datee = {
     ymdCaret: (dt) => {
         return `${dt.substr(0, 4)}-${dt.substr(4, 2)}-${dt.substr(6, 2)}`

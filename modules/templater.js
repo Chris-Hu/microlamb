@@ -1,4 +1,3 @@
-
 import fs from "node:fs";
 
 export class Templater {

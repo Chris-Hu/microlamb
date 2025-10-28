@@ -1,7 +1,5 @@
-import {isObject, Logger} from './utils.js';
-import {TYPES} from './http-consts.js';
+import {Logger} from './utils.js';
 import https from 'node:https';
-import http from 'node:http';
 import fs from 'node:fs';
 import {Buffer} from 'node:buffer';
 
@@ -92,5 +90,4 @@ export class HttpRequest {
             this.requestEnd(req, reject, data, timeout);
         });
     }
-
 }

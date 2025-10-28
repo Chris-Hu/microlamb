@@ -20,7 +20,6 @@ class Response {
       return headers;
     }
 
-
     static addHeaders(headers) {
         Response.#dynamicHeaders = {...Response.headers, ...headers};
         return Response;

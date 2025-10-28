@@ -1,6 +1,6 @@
 'use strict';
 
-import {Config, hashIt, jsonOBJ, Logger} from './common/utils.js';
+import {Config, Logger} from './common/utils.js';
 import {HttpRequest} from './common/http-request.js';
 
 import {HTTP_INTERNAL_SERVER_ERROR, HTTP_NOT_FOUND} from './common/http-consts.js';

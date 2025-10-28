@@ -1,7 +1,5 @@
 export default {
-   //presets: ['@babel/preset-env'],
- //   presets: [['@babel/preset-env', {modules: false}]],
-
+ //  presets: [['@babel/preset-env', {modules: false}]],
     presets: [
         [
             '@babel/preset-env',
@@ -17,4 +15,3 @@ export default {
         ["babel-plugin-transform-import-meta", { "module": "ES6" }]
     ]
 };
-
