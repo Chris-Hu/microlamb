@@ -1,0 +1,31 @@
+{
+  "name": "microlamb-hello",
+  "version": "1.0.0",
+  "description": "Microlamb discovery",
+  "author": "Chris Hu",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@types/jest": "^29.5.14",
+    "@vercel/ncc": "^0.36.1",
+    "aws-sdk-client-mock": "^4.1.0",
+    "babel-jest": "^29.7.0",
+    "babel-plugin-transform-import-meta": "^2.3.2",
+    "jest": "^29.7.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "npm install",
+    "debug": "node $NODE_DEBUG_OPTION  runner/invoke.js",
+    "lambda": "node --watch-path=./ runner/invoke.js",
+    "debug_http": "NODE_DEBUG=http node runner/invoke.js",
+    "test": "jest --detectOpenHandles --verbose --forceExit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.731.1",
+    "ncc": "^0.3.6",
+    "uuid": "^11.0.5"
+  }
+}

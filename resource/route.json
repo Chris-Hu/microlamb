@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "HELLO" : {
+        "method": "GET",
+        "reg": "\/hello\/(?<USER>\\w+)"
+      }
+    },
+    {
+      "BYE" : {
+        "method": "GET",
+        "reg": "\/bye"
+      }
+    },
+    {
+      "MAINTENANCE" : {
+        "method": "GET",
+        "reg": "\/maintenance"
+      }
+    },
+    {
+      "REGISTER" : {
+        "method": "POST",
+        "reg": "\/register\/me"
+      }
+    }
+  ]
+}

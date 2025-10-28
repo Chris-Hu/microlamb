@@ -1,0 +1,25 @@
+{
+  "app": {
+    "maintenance": {
+       "active": false
+    },
+    "tpl": {
+      "hello": "resource/hello.tpl.html",
+      "bye": "resource/bye.tpl.html"
+    },
+    "staticp": {
+      "maintenance": "maintenance.html"
+    },
+    "s-name": "my-secrets",
+    "region": "eu-west-1",
+    "tls": {
+      "strict": false
+    },
+    "cert": {
+      "use-local": true,
+      "key": "app.key",
+      "pem": "resource/app.pem"
+    }
+  }
+}
+
